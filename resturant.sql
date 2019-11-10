@@ -63,8 +63,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`uid`, `uname`, `address`, `phone`, `email`, `password`, `userType`) VALUES
-(1, 'vivek agarwal', 'Gla university, 17km Stone, NH-2, Mathura-Delhi Road P.O. Chaumuhan, Mathura', '08533094283', 'vivek@google.com', '1234', 1),
-(7, 'vivek agarwal', 'Gla university, 17km Stone, NH-2, Mathura-Delhi Road P.O. Chaumuhan, Mathura', '08533094283', 'gla@gmail.com', '1234', 0);
+(1, 'vivek agarwal', 'Gla university, Mathura', '08111111113', 'vivek@google.com', '1234', 1),
+(7, 'vivek agarwal', 'Gla university, Mathura', '08511111113', 'gla@gmail.com', '1234', 0);
 
 -- --------------------------------------------------------
 
@@ -91,11 +91,7 @@ CREATE TABLE `user_table` (
 --
 
 INSERT INTO `user_table` (`utid`, `uid`, `tname`, `uname`, `person`, `time`, `date`, `booktime`, `phone`, `email`, `request`) VALUES
-(11, 1, 'table 2', 'vivek agarwal', 1, '12PM-1PM', '2019-10-12', '2019-10-22 18:48:36', '08533094283', 'vivek@google.com', '	no				'),
-(12, 1, 'table 1', 'vivek agarwal', 1, '12PM-1PM', '2019-10-01', '2019-10-22 18:49:25', '08533094283', 'vivek@google.com', '	no				'),
-(13, 1, 'table 1', 'vivek agarwal', 1, '12PM-1PM', '2019-11-01', '2019-10-22 18:51:39', '08533094283', 'vivek@google.com', '	no				'),
-(15, 1, 'table 2', 'vivek agarwal', 2, '3PM-4PM', '2019-10-16', '2019-10-23 01:19:47', '08533094283', 'vivek@google.com', '	viev\r\n\r\n				'),
-(16, 1, 'table 1', 'vivek agarwal', 1, '12PM-1PM', '2019-10-08', '2019-10-23 01:31:13', '08533094283', 'vivek@google.com', '					');
+(11, 1, 'table 2', 'vivek agarwal', 1, '12PM-1PM', '2019-10-12', '2019-10-22 18:48:36', '08111111113', 'vivek@google.com', '	no		'),
 
 --
 -- Indexes for dumped tables
